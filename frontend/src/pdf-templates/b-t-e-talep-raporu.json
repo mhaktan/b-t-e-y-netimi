@@ -1,0 +1,374 @@
+{
+  "id": "report-budgetRequest-1793038042511",
+  "name": "Bütçe Talep Raporu",
+  "orientation": "portrait",
+  "pageSize": "a4",
+  "elements": [
+    {
+      "id": "pdf-mvpkk03z-0",
+      "type": "header",
+      "x": 20,
+      "y": 25,
+      "width": 170,
+      "height": 10,
+      "props": {
+        "text": "Bütçe Talep Raporu",
+        "fontSize": 16,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-1",
+      "type": "divider",
+      "x": 20,
+      "y": 39,
+      "width": 170,
+      "height": 2,
+      "props": {
+        "lineColor": "#999999"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-2",
+      "type": "textbox",
+      "x": 20,
+      "y": 45,
+      "width": 170,
+      "height": 7,
+      "props": {
+        "text": "Talep Bilgileri",
+        "fontSize": 12,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-3",
+      "type": "textbox",
+      "x": 20,
+      "y": 56,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Title",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-4",
+      "type": "textbox",
+      "x": 72,
+      "y": 56,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.title",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-5",
+      "type": "textbox",
+      "x": 20,
+      "y": 66,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Request No",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-6",
+      "type": "textbox",
+      "x": 72,
+      "y": 66,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.requestNo",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-7",
+      "type": "textbox",
+      "x": 20,
+      "y": 76,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Request Date",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-8",
+      "type": "textbox",
+      "x": 72,
+      "y": 76,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.requestDate",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-9",
+      "type": "textbox",
+      "x": 20,
+      "y": 86,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Justification",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-10",
+      "type": "textbox",
+      "x": 72,
+      "y": 86,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.justification",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-11",
+      "type": "textbox",
+      "x": 20,
+      "y": 96,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Total Amount",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-12",
+      "type": "textbox",
+      "x": 72,
+      "y": 96,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.totalAmount",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-13",
+      "type": "textbox",
+      "x": 20,
+      "y": 106,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Currency",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-14",
+      "type": "textbox",
+      "x": 72,
+      "y": 106,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.currency",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-15",
+      "type": "textbox",
+      "x": 20,
+      "y": 116,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Total Amount T R Y",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-16",
+      "type": "textbox",
+      "x": 72,
+      "y": 116,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.totalAmountTRY",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-17",
+      "type": "textbox",
+      "x": 20,
+      "y": 126,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Status",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-18",
+      "type": "textbox",
+      "x": 72,
+      "y": 126,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.status",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-19",
+      "type": "textbox",
+      "x": 20,
+      "y": 138,
+      "width": 170,
+      "height": 7,
+      "props": {
+        "text": "Talep Kalemleri",
+        "fontSize": 12,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-20",
+      "type": "table",
+      "x": 20,
+      "y": 149,
+      "width": 170,
+      "height": 77,
+      "props": {
+        "binding": "budgetRequestItems",
+        "columns": [
+          {
+            "key": "description",
+            "label": "Description",
+            "width": 34
+          },
+          {
+            "key": "quantity",
+            "label": "Quantity",
+            "width": 34
+          },
+          {
+            "key": "unitPrice",
+            "label": "Unit Price",
+            "width": 34
+          },
+          {
+            "key": "amount",
+            "label": "Amount",
+            "width": 34
+          },
+          {
+            "key": "plannedDate",
+            "label": "Planned Date",
+            "width": 34
+          }
+        ],
+        "headerBgColor": "#f0f0f0",
+        "borderColor": "#cccccc",
+        "rowHeight": 7
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-21",
+      "type": "textbox",
+      "x": 20,
+      "y": 230,
+      "width": 170,
+      "height": 7,
+      "props": {
+        "text": "Onay Geçmişi",
+        "fontSize": 12,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvpkk03z-22",
+      "type": "table",
+      "x": 20,
+      "y": 241,
+      "width": 170,
+      "height": 56,
+      "props": {
+        "binding": "approvalHistory",
+        "columns": [
+          {
+            "key": "stepName",
+            "label": "Adım",
+            "width": 45
+          },
+          {
+            "key": "action",
+            "label": "Aksiyon",
+            "width": 30
+          },
+          {
+            "key": "userName",
+            "label": "Kullanıcı",
+            "width": 45
+          },
+          {
+            "key": "actionDate",
+            "label": "Tarih",
+            "width": 50
+          }
+        ],
+        "headerBgColor": "#f0f0f0",
+        "borderColor": "#cccccc",
+        "rowHeight": 7
+      }
+    }
+  ],
+  "apiBinding": {
+    "method": "GET",
+    "url": "api/services/app/BudgetRequest/GetReportData?id={{id}}",
+    "params": [
+      {
+        "name": "id"
+      }
+    ]
+  },
+  "headerConfig": {
+    "enabled": true,
+    "height": 15,
+    "text": "Bütçe Talep Raporu",
+    "fontSize": 9
+  },
+  "pageNumberConfig": {
+    "enabled": true
+  }
+}
